@@ -1,0 +1,146 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title> MSEUF Home Page </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+</head>
+<body>
+    <div class="navbar navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <br />
+                <br />
+                <span style="padding-left: 50px; font-weight: bold; font-size: 20px;">Manuel S. Enverga University Foundation</span>
+                <br />
+                <span style="padding-left: 50px; font-weight: bold; font-size: 15px;">Lucena City, Philippines</span>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-nav-top navbar-right">
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+							<path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+							</svg>
+                            <br />
+                            Home 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+							<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+							</svg>
+                            <br />
+                            Help 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">   
+    <div class="row">
+        
+    <div class="col-md-8" style="min-height: 350px;">
+        <div class="mTitle">
+            <h1><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-microsoft" viewBox="0 0 16 16">
+			<path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
+			</svg> Welcome to myMSEUF Portal!</h1>
+        </div>
+        <div class="usertype">
+            Please select User Type
+        </div>
+        <br />
+        <br />
+        <div class="col-md-12">
+            <ul class="nav nav-pills nav-stacked nav-pills-maroon">
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> Admission</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> Online Payment (Exclusive for payments thru Dragonpay)</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> Basic Education (K to 10)</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> Senior High</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> College/Graduate School/ETEEAP/Law</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> Faculty/Employee</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+				</svg> Candelaria - Student Information System</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+        <!-- START OF SECOND COLUMN -->
+        <div class="col-md-4">
+
+            <div class="title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+				<path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+				</svg> Book your appointment
+            </div>
+
+            <div style="font-size: 14px; margin-top: 10px; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; border-radius: 10px; background: #f9faeb;">
+                <strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+				<path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+				</svg> The university encourages you to do all transactions online. However, if you need to visit the campus, please set your appointment at <a id="HyperLink2">http://bookmseuf.setmore.com</a>.</strong>
+            </div>
+
+            <div class="title">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3-week-fill" viewBox="0 0 16 16">
+			<path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2h16a2 2 0 0 0-2-2H2zM0 14V3h16v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm12-8a1 1 0 1 0 2 0 1 1 0 0 0-2 0zM5 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm5-2a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM2 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z"/>
+			</svg>
+                Enrollment Schedule
+            </div>
+
+             
+            <table style="margin-bottom: 15px;">
+                <tr>
+                    <td style="border-bottom: 1px solid #eeeeee; padding-bottom: 15px; width: 100px; text-align: center;" colspan="3">
+                        <i>May 31 to June 11, 2022</i>
+                    </td>
+                    <td style="border-bottom: 1px solid #eeeeee; padding-bottom: 15px;">
+                        <div class="calendar">
+                            <strong>Summer Term 2022</strong>
+                            <br />
+                            College/Graduate School/Law
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+    </div>
+
+    <div class="footer">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <p>
+                <br />
+                System Development Team. Information and Communications Technology Department
+                <br />
+                Manuel S. Enverga University Foundation
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
